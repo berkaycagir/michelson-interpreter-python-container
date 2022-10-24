@@ -37,9 +37,6 @@
 			"installOhMyZsh": false,
 			"username": "none"
 		},
-		"ghcr.io/devcontainers/features/git:1": {
-			"version": "latest"
-		},
 		"ghcr.io/devcontainers/features/node:1": {
 			"version": "18"
 		}
