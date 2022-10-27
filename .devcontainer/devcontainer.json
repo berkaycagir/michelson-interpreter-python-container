@@ -29,7 +29,7 @@
 			]
 		}
 	},
-	"postCreateCommand": "pip3 install --user -r requirements.txt ; git submodule update --remote --init --recursive ; cd ext/michelson-parser-wrapper ; npm install ; cd ../..",
+	"postCreateCommand": "pip3 install --user -r requirements.txt ; (git submodule update --remote --init --recursive && cd ext/michelson-parser-wrapper && npm install && rm -f package-lock.json && cd ../..)",
 	"remoteUser": "vscode",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:1": {
