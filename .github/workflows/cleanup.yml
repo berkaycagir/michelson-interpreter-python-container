@@ -16,4 +16,4 @@ jobs:
           token: ${{ secrets.PAT }}
           container: michelson-interpreter-python-container
           dry-run: false
-          untagged: true
+          prune-untagged: true
