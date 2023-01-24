@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/devcontainers/python:0.204-3.11
+FROM mcr.microsoft.com/devcontainers/python:0.204.4-3
