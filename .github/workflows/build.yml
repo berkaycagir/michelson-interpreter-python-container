@@ -29,7 +29,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and run dev container task
-        uses: devcontainers/ci@v0.3.1900000329
+        uses: devcontainers/ci@v0.3.1900000348
         with:
           imageName: ghcr.io/berkaycagir/michelson-interpreter-python-container
           runCmd: |
