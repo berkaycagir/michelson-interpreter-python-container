@@ -35,7 +35,7 @@
 	"postCreateCommand": "if [ -r requirements.txt ]; then (pip3 install --user -r requirements.txt); fi ; if [ -d ext ]; then (git submodule update --remote --init --recursive ; cd ext/michelson-parser-wrapper ; npm install ; rm -f package-lock.json ; cd ../..); fi",
 	"remoteUser": "vscode",
 	"features": {
-		"ghcr.io/devcontainers/features/common-utils:1": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": false,
 			"installOhMyZsh": false,
 			"username": "none"
